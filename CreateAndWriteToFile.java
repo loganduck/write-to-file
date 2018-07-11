@@ -2,6 +2,14 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/**
+ * Creates a file 'example.txt' on desktop. 
+ * (CHANGE FILE_PATH TO LOCATION ON YOUR COMPUTER)
+ * Once the file is created, PrintWriter writes the text specified for it
+ * and is saved to the location.
+ * @author LoganDuck
+ * @version 07/11/18
+ */
 public class CreateAndWriteToFile {
 	static final String FILE_NAME = "example.txt"; 
 	static final String FILE_PATH = "/Users/LoganDuck/Desktop/";
